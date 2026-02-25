@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add PhoneStorm promotional banner as a static asset",
+  "requirements": [
+    {
+      "id": "REQ-4",
+      "summary": "Display PhoneStorm promotional image as a banner in the dashboard consistent with the dark/warm-accent theme",
+      "acceptanceCriteria": [
+        "The PhoneStorm promotional image (phonestorm-banner.dim_1024x1024.png) is placed in frontend/public/assets/generated/",
+        "The image is rendered visibly in the dashboard UI as a banner or featured card",
+        "The image display is responsive and does not overflow its container",
+        "The image integrates visually with the existing dark background and card-based layout"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Add a promotional banner section that displays the PhoneStorm image from frontend/public/assets/generated/phonestorm-banner.dim_1024x1024.png. Position it prominently in the dashboard layout (e.g., above or within the main content area). Ensure the banner uses responsive width constraints (max-width) and rounded corners consistent with the existing card-based design. Maintain the dark background and ensure the banner integrates visually with the warm-accent theme."
+        }
+      ]
+    }
+  ]
+}

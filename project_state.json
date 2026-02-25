@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Space galaxy background with multiple floating smartphones and USB cables, a large central smartphone displaying a blue gift box with phones bursting out, bold white text 'FREE PHONES DAILY!', two blue CTA buttons labeled 'BROWSE MODELS' and 'ENTER GIVEAWAYS', a blue winged dollar-sign app icon in the top-left corner of the phone screen, and 'PHONESTORM' branding in white at the bottom with a sparkle icon (phonestorm-banner.dim_1024x1024.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-full-stack-personal-dashboard-app-with-an-ideas-notes-board-where-users-can-create-view-edit-and-delete-short-notes-or-idea-cards-each-card-should-have-a-title-body-text-and-a-timestamp",
+      "title": "Create a full-stack personal dashboard app with an ideas/notes board where users can create, view, edit, and delete short notes or idea cards. Each card should have a title, body text, and a timestamp.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-and-apply-a-bold-energetic-visual-theme-with-a-dark-background-vibrant-warm-accent-colors-e-g-amber-orange-coral-clean-sans-serif-typography-and-card-based-layout-with-smooth-hover-interactions-enforce-this-theme-consistently-across-all-pages-and-components",
+      "title": "Design and apply a bold, energetic visual theme with a dark background, vibrant warm accent colors (e.g., amber/orange/coral), clean sans-serif typography, and card-based layout with smooth hover interactions. Enforce this theme consistently across all pages and components.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-render-a-custom-app-logo-icon-for-the-dashboard-header-as-a-static-asset",
+      "title": "Generate and render a custom app logo/icon for the dashboard header as a static asset.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-provided-phonestorm-promotional-image-as-a-static-asset-in-the-dashboard-display-it-as-a-banner-or-featured-card-section-within-the-existing-dashboard-layout-consistent-with-the-established-dark-warm-accent-visual-theme",
+      "title": "Render the provided PhoneStorm promotional image as a static asset in the dashboard. Display it as a banner or featured card section within the existing dashboard layout, consistent with the established dark/warm-accent visual theme.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [],
+  "projectName": "Spark Board",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

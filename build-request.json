@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Add PhoneStorm promotional banner as a static asset",
+  "projectName": "IdeaSpark Dashboard",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-4",
+      "text": "Render the provided PhoneStorm promotional image as a static asset in the dashboard. Display it as a banner or featured card section within the existing dashboard layout, consistent with the established dark/warm-accent visual theme.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "Ab tum mujhse kuchh mat poochho chupchap banaa do uska photo de raha"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The PhoneStorm promotional image (phonestorm-banner.dim_1024x1024.png) is placed in frontend/public/assets/generated/",
+        "The image is rendered visibly in the dashboard UI as a banner or featured card",
+        "The image display is responsive and does not overflow its container",
+        "The image integrates visually with the existing dark background and card-based layout"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui",
+    "Use the generated image from frontend/public/assets/generated/ as a static asset — do not route through the backend"
+  ],
+  "nonGoals": [
+    "Do not add any giveaway or phone-browsing backend functionality",
+    "Do not change the existing notes/ideas board feature",
+    "Do not alter the established dark/amber visual theme"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Space galaxy background with multiple floating smartphones and USB cables, a large central smartphone displaying a blue gift box with phones bursting out, bold white text 'FREE PHONES DAILY!', two blue CTA buttons labeled 'BROWSE MODELS' and 'ENTER GIVEAWAYS', a blue winged dollar-sign app icon in the top-left corner of the phone screen, and 'PHONESTORM' branding in white at the bottom with a sparkle icon (phonestorm-banner.dim_1024x1024.png)"
+    ],
+    "edits": []
+  }
+}

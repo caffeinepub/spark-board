@@ -1,0 +1,5 @@
+{
+  "frontend/src/index.css": "Global styles with OKLCH dark/amber design system, Google Fonts imports for Inter and Space Grotesk, custom utility classes for glow effects, text gradients, and card hover animations.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom font families (Inter/Space Grotesk), amber/coral color tokens, enhanced border radii, glow box shadows, and fade/slide-in keyframe animations.",
+  "frontend/src/App.tsx": "Full Spark Board dashboard with a PhoneStorm promotional banner at the top, an ideas/notes board with create/edit/delete functionality, a sticky header with logo, and a branded footer."
+}

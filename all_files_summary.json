@@ -1,0 +1,14 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented methods.",
+  "feature_evidence.json": "Feature evidence report mapping the PhoneStorm promotional banner feature to its source file, UI components, and test requirement ID.",
+  "frontend-file-summaries.txt": "JSON document containing one-line summaries of the three main frontend source files: index.css, tailwind.config.js, and App.tsx.",
+  "frontend/index.css": "Base Tailwind CSS file defining OKLCH-based CSS custom properties for light and dark color themes including background, foreground, card, sidebar, and chart tokens.",
+  "frontend/index.html": "Minimal HTML shell titled 'Spark Board' that mounts the React app via a root div and loads main.tsx as an ES module.",
+  "frontend/src/App.tsx": "Main Spark Board dashboard component featuring a PhoneStorm promotional banner, an idea/note board with create, edit, and delete functionality, a sticky header, and a branded footer.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and caches an ICP backend actor using React Query, supporting both anonymous and authenticated (Internet Identity) usage and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing AuthClient lifecycle, login/logout state, and persisting identity across page reloads.",
+  "frontend/src/index.css": "Extended global stylesheet importing Google Fonts (Inter, Space Grotesk), defining OKLCH dark/warm-accent CSS variables for both light and dark modes, and adding utility classes for amber glow, text gradients, and card hover animations.",
+  "frontend/src/main.tsx": "React app entry point that wraps the App component with QueryClientProvider and InternetIdentityProvider before rendering into the DOM root.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with Inter/Space Grotesk fonts, OKLCH-based color tokens, custom border radii, glow box shadows, and fade/slide-in keyframe animations.",
+  "project_state.json": "Tracks the state of the 'Spark Board' project at version 5, including four existing features covering a full-stack notes dashboard, visual theming, a custom logo, and a PhoneStorm promotional banner, along with image asset requirements."
+}
